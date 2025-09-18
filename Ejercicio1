@@ -1,0 +1,31 @@
+Parte A
+1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+  Las reglas escritas del lenguaje son:
+    Estructuras de control: if, else, switch, for, while, do…while
+    Bloques de código con { }
+    Funciones: function nombre(parametros) { ... }
+    Variables: let, const
+    Tipos básicos: Number, String, Boolean
+    Operadores: +, -, *, /, ==, ===, <, >, &&, ||
+2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se
+cree que sean "mejores" que en otros lenguajes?
+  Fácil y rápido para scripts y prototipos
+  Ejecuta directamente en el navegador
+  Tipado dinámico (flexible)
+  Sintaxis sencilla para estructuras básicas (for, while, if)
+
+Parte B
+1. ¿Tiene una sintaxis y una semántica bien definida? ¿Existe documentación oficial?
+  Sí, JavaScript tiene reglas claras de sintaxis y semántica. Hay documentación oficial en MDN Web Docs que explica cada función, tipo y estructura.
+2. ¿Es posible comprobar el código producido en ese lenguaje?
+  Sí, se puede comprobar en navegadores, Node.js o con herramientas de linters (por ejemplo ESLint). También se pueden hacer pruebas unitarias con frameworks como Jest.
+3. ¿Es confiable?
+  Es confiable si se sigue buenas prácticas. Puede ser impredecible si se abusa de tipado dinámico o conversiones automáticas.
+4. ¿Es ortogonal?
+  No lo es tanto ya que casi todos los elementos se combinan, pero hay excepciones.
+5. ¿Cuáles son sus características de consistencia y uniformidad?
+  Es bastante consistente ya que tiene estructuras de control y funciones que funcionan de manera uniforme, aunque tiene algunas inconsistencias históricas.
+6. ¿Es extensible? ¿Hay subconjuntos de ese lenguaje?
+  Sí, es extensible, se pueden crear librerías y módulos. Tambien tiene subconjuntos como: TypeScript, ECMAScript “estricto” y frameworks específicos.
+7. El código producido, ¿es transportable?
+  Sí, funciona en cualquier navegador moderno y en entornos como Node.js. Además de que el código puede compartirse y ejecutarse sin modificaciones significativas
