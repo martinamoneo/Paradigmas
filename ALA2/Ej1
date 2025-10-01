@@ -1,0 +1,13 @@
+1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+  Las reglas escritas del lenguaje son:
+    - Estructuras de control: if, switch, for, while, do-while (la base del paradigma estructurado).
+    - Reglas de tipado: declaración explícita de tipos (number, string, boolean, Tarea, etc) y tipos compuestos (arrays, unions, enums, interfaces).
+    - Modularización: dividir el programa en funciones y archivos (import/export).
+    - Restricciones del compilador: te avisa de errores antes de ejecutar (por ej. intentar sumar un número con un string).
+
+2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes?
+  Tipado estático = menos errores: se cree que definir tipos evita muchos bugs en tiempo de ejecución (cosa que pasa mucho en JavaScript).
+  Mayor mantenibilidad: proyectos grandes son más fáciles de entender y mantener porque cada función/variable tiene un tipo claro.
+  Compatibilidad con JavaScript: se valora mucho que cualquier código TS se convierta en JS y funcione en cualquier navegador.
+  Mejor autocompletado y documentación: gracias a los tipos, los editores pueden dar sugerencias mucho más precisas.
+  Escalabilidad: se cree que con TypeScript se pueden manejar proyectos grandes en equipo de manera más organizada que con JavaScript puro.
