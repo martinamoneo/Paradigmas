@@ -46,4 +46,3 @@ while(opcionMenu != 0){
             console.log("Opción inválida");
     }
 }
-
