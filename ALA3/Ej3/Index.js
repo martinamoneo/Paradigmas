@@ -6,34 +6,32 @@ import { buscarTareas } from "./buscarTarea.js";
 import { agregarTarea } from "./agregarTarea.js";
 
 let opcionMenu = -1;          // Guarda la opción que elige el usuario
-let estadoTarea;              // Guarda el estado de la tarea que quiere ver (P/E/T/C/A)
-let numeroTarea;              // Guarda el número de tarea específica a mostrar o editar
-let listaTareas = [];         // guarda las tareas
+let listaTareas = [];         // Guarda cada tarea que se crea
 
-//Instrucciones
-const instrucciones = function(){
-    console.log("Ingrese una opcion:");
+// Instrucciones
+const instrucciones = function() {
+    console.log("Ingrese una opción:");
     console.log("[1] Ver tarea");
     console.log("[2] Buscar tarea");
     console.log("[3] Agregar tarea");
     console.log("[0] Salir");
 }
 
-// Opciones
-while(opcionMenu != 0){
-    instrucciones(); // muestra el menú
+// Menú principal
+while(opcionMenu !== 0) {
+    instrucciones();
     opcionMenu = parseInt(prompt("Ingrese una opción: "));
 
-    switch(opcionMenu){
-        case 1:// ver tareas
+    switch(opcionMenu) {
+        case 1: // Ver tareas
             mostrarTareas(listaTareas);
             break;
 
-        case 2:// buscar tarea
+        case 2: // Buscar tareas
             buscarTareas(listaTareas);
             break;
 
-        case 3:// agregar tarea
+        case 3: // Agregar tarea
             agregarTarea(listaTareas);
             break;
 

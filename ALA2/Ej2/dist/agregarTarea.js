@@ -29,20 +29,16 @@ export function agregarTarea(listaTareas) {
         }
     }
     // 3. Estado
-    let estado = "P"; // valor inicial válido
-    while (!["P", "E", "T", "C"].includes(estado)) {
-        estado = prompt("3. Estado ([P] Pendiente / [E] En curso / [T] Terminada / [C] Cancelada): ").toUpperCase();
-        if (!["P", "E", "T", "C"].includes(estado)) {
-            console.log("Estado inválido. Usa P, E, T o C.");
-        }
+    let estado = "P"; // valor por defecto
+    const inputEstado = prompt("3. Estado ([P] Pendiente / [E] En curso / [T] Terminada / [C] Cancelada, presiona Enter para P): ").toUpperCase().trim();
+    if (["P", "E", "T", "C"].includes(inputEstado)) {
+        estado = inputEstado;
     }
     // 4. Dificultad
-    let dificultad = "1"; // valor inicial válido
-    while (!["1", "2", "3"].includes(dificultad)) {
-        dificultad = prompt("4. Dificultad ([1] Fácil / [2] Media / [3] Difícil): ");
-        if (!["1", "2", "3"].includes(dificultad)) {
-            console.log("Dificultad inválida. Usa 1, 2 o 3.");
-        }
+    let dificultad = "1"; // valor por defecto
+    const inputDificultad = prompt("4. Dificultad ([1] Fácil / [2] Media / [3] Difícil, presiona Enter para 1): ").trim();
+    if (["1", "2", "3"].includes(inputDificultad)) {
+        dificultad = inputDificultad;
     }
     // 5. Vencimiento
     let fechaVencimiento = "";
