@@ -2,7 +2,7 @@ import promptSync from "prompt-sync";
 const prompt = promptSync();
 
 import { detallesTarea } from "./detallesTarea.js"; 
-import { Tarea } from "./Tarea";
+import { Tarea } from "./Tarea.js";
 
 export function buscarTareas(listaTareas: Tarea[]) {
     if(listaTareas.length === 0) {

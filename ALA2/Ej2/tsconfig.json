@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",             // Versión de JavaScript de salida
+    "module": "ES2020",           // Para Node, permite require/import
+    "rootDir": "./",                // Carpeta raíz de tus archivos .ts
+    "outDir": "./dist",             // Carpeta donde se generan los .js compilados
+    "strict": true,                 // Activa todas las comprobaciones estrictas
+    "esModuleInterop": true,        // Permite importaciones de módulos CommonJS como prompt-sync
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"],           // Incluye todos los archivos .ts del proyecto
+  "exclude": ["node_modules"]       // Excluye node_modules
+}

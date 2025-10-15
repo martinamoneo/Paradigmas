@@ -1,8 +1,8 @@
 import promptSync from "prompt-sync";
 const prompt = promptSync();
 
-import { Tarea } from "./Tarea";
-import { detallesTarea } from "./detallesTarea";
+import { Tarea } from "./Tarea.js";
+import { detallesTarea } from "./detallesTarea.js";
 
 const nombresEstados: Record<Tarea["estado"], string> = { // estados que puede tener tarea
     P: "Pendiente",

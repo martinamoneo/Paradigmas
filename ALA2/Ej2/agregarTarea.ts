@@ -1,7 +1,7 @@
 import promptSync from "prompt-sync";
 const prompt = promptSync();
 
-import { Tarea } from "./Tarea";
+import { Tarea } from "./Tarea.js";
 
 export function agregarTarea(listaTareas: Tarea[]) {
     console.log("\n===== CREAR UNA NUEVA TAREA =====");

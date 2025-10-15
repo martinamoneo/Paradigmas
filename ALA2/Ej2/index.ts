@@ -1,9 +1,9 @@
 import promptSync from "prompt-sync";
 const prompt = promptSync();
 
-import { mostrarTareas } from "./verTareas";
-import { buscarTareas } from "./buscarTarea";
-import { agregarTarea } from "./agregarTarea";
+import { mostrarTareas } from "./verTareas.js";
+import { buscarTareas } from "./buscarTarea.js";
+import { agregarTarea } from "./agregarTarea.js";
 
 import { Tarea } from "./Tarea"; // importamos tarea
 
