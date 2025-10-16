@@ -1,0 +1,11 @@
+1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+  -Podés crear objetos de muchas formas ({}, new FunciónConstructor(), class).
+  -Los objetos pueden heredar cosas de otros objetos usando prototipos.
+  -Los métodos y propiedades están dentro de los objetos (encapsulamiento), pero casi siempre accesibles desde fuera.
+  -Podés tener métodos con el mismo nombre en distintos objetos y funcionan según el objeto (polimorfismo dinámico).
+
+2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes?
+  -Los objetos son muy flexibles y los podés cambiar en cualquier momento.
+  -La herencia prototípica es simple y liviana, no hace falta crear estructuras pesadas.
+  -Las funciones se pueden pasar como valores, así los métodos se pueden usar de formas distintas.
+  -Con class se ve como POO tradicional, pero sigue siendo dinámico y flexible.
