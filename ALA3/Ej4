@@ -1,0 +1,35 @@
+Ejercicio 2:
+Abstracción:
+Creé la clase operación que representa cualquier operación matemática y contiene el atributo resultado y el método mostrar resultado.
+Esto permite trabajar con operaciones sin preocuparse por cómo se calcula el resultado internamente.
+Ejemplo: se llama a sumar, restar, etc., sin preocuparse de cómo se hace cada una internamente.
+
+Encapsulamiento:
+Toda la información y comportamiento de las operaciones están dentro de las clases operación y calculadora.
+El resultado se guarda dentro de la clase y se accede solo mediante métodos como mostrar resultado, evitando modificarlo directamente desde fuera.
+
+Herencia:
+La clase calculadora hereda de operación.
+Esto permite que calculadora use resultado y  la función mostrar resultado sin tener que redefinirlos, y agrega sus propios métodos de suma, resta, multiplicación y división.
+
+Polimorfismo:
+En este ejercicio no se aplicó polimorfismo, porque cada operación tiene su propio método independiente.
+Podría usarse si, por ejemplo, distintas calculadoras redefinieran un mismo método operar de manera diferente según el tipo de operación.
+
+
+Ejercicio 3:
+Abstracción:
+Creé el objeto Tarea que contiene a la tarea con sus datos principales (título, descripción, estado, dificultad, etc.) y métodos como mostrarDetalles().
+Esto permite trabajar con el concepto de “tarea” sin preocuparse por cómo funciona internamente.
+Ejemplo: se llama al método mostrarDetalles() sin preocuparse de cómo funciona o qué hace.
+
+Encapsulamiento:
+Toda la información y comportamiento de la tarea están dentro del mismo objeto.
+Esto mantiene los datos organizados y evita que se modifiquen directamente desde fuera del objeto.
+
+Herencia:
+En este ejercicio no se aplicó herencia, porque solo hay un tipo de objeto (Tarea).
+Pero se podría implementar creando una subclase TareaImportante que herede de Tarea.
+
+Polimorfismo:
+Tampoco se aplica directamente, aunque podría utilizarse si los distintos tipos de tareas heredadas tuvieran métodos con el mismo nombre pero comportamientos diferentes.
